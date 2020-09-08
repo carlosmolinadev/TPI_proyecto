@@ -6,8 +6,11 @@
   </button>
   <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
     <ul class="navbar-nav">
-      <li class="nav-item  pr-5 active">
-        <a class="nav-link" href="#">Iniciar Sesion </a>
+    <li class="nav-item  pr-5 active">
+        <a class="nav-link" href="../index.php">Inicio </a>
+      </li>
+      <li class="nav-item  pr-5">
+        <a class="nav-link" href="../pages/logging.php">Iniciar Sesion </a>
       </li>
       <li class="nav-item pr-5">
         <a class="nav-link" href="#">Paquetes Turisticos</a>
@@ -27,14 +30,15 @@
       </li>
       <li class="nav-item pr-5">
         <a class="nav-link" href="#">
-          <span class="material-icons" style="font-size: 30px; color: rgba(255, 255, 255, 1);"> shopping_cart </span>  
+          <span class="material-icons" style="font-size: 28px; color: rgba(255, 255, 255, 1);"> shopping_cart </span>  
         </a>
       </li>
       <li class="nav-item pr-5">
         <a class="nav-link" href="#">
-          <span class="material-icons" style="font-size: 30px; color: rgba(255, 255, 255, 1);"> account_circle </span>  
+          <span class="material-icons" style="font-size: 28px; color: rgba(255, 255, 255, 1);"> account_circle </span>  
         </a>
       </li>
     </ul>
   </div>
 </nav>
+
