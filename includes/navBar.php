@@ -26,7 +26,7 @@
         </div>
       </li>
       <li class="nav-item pr-5">
-        <a class="nav-link" href="#">Contactanos</a>
+        <a class="nav-link" href="../pages/contact.php">Contactanos</a>
       </li>
       <li class="nav-item pr-5">
         <a class="nav-link" href="#">

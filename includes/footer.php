@@ -1,7 +1,7 @@
     
     <footer id="footer">
     <div class="footer-top">
-    <div class="container">
+    <div class="container ">
         <div class="row">
             <div class="col-5 footer-contact">
                 <h3>El Salvador Tours</h3>
