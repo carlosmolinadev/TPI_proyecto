@@ -12,9 +12,6 @@
       <li class="nav-item  pr-5">
         <a class="nav-link" href="../pages/logging.php">Iniciar Sesion </a>
       </li>
-      <li class="nav-item pr-5">
-        <a class="nav-link" href="#">Paquetes Turisticos</a>
-      </li>
       <li class="nav-item pr-5 dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Rutas Turisticas
@@ -24,6 +21,9 @@
           <a class="dropdown-item" href="#">Montaña</a>
           <a class="dropdown-item" href="#">Sitios Arqueologicos</a>
         </div>
+      </li>
+      <li class="nav-item pr-5">
+        <a class="nav-link" href="#">Paquetes Turisticos</a>
       </li>
       <li class="nav-item pr-5">
         <a class="nav-link" href="../pages/contact.php">Contactanos</a>

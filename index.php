@@ -13,83 +13,58 @@
         </div>
     </header>
 
-    <!-- ======= Tours Section ======= -->
-    <section id="services" class="services section-bg">
-      <div class="container mb-4">
-
+    <!-- ======= More Services Section ======= -->
+    <section id="more-services" class="more-services">
+      <div class="container">
         <div class="section-title">
-          <h2>Nuestros Tours</strong></h2>
-          <p>Laborum repudiandae omnis voluptatum consequatur mollitia ea est voluptas ut</p>
+            <h2>Nuestros Tours</strong></h2>
+            <p>Laborum repudiandae omnis voluptatum consequatur mollitia ea est voluptas ut</p>
         </div>
-
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" >
-            <div class="icon-box iconbox-blue">
-              <div class="icon">
-                <img src="assets/images/maldives-640.jpg" alt="" width="100" height="100" style="border-radius: 50%;">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card" style='background-image: url("assets/images/maldives-640.jpg");' data-aos="fade-up" data-aos-delay="100">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Lobira Duno</a></h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div>
               </div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="icon-box iconbox-orange ">
-              <div class="icon">
-                <img src="assets/images/maldives-640.jpg" alt="" width="100" height="100" style="border-radius: 50%;">
+          <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="card" style='background-image: url("assets/images/jumbotron-1920.jpg");' data-aos="fade-up" data-aos-delay="200">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Limere Radses</a></h5>
+                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem.</p>
+                <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div>
               </div>
-              <h4><a href="">Sed Perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch mt-4">
+            <div class="card" style='background-image: url("assets/images/beach_1280.jpg");' data-aos="fade-up" data-aos-delay="100">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Nive Lodo</a></h5>
+                <p class="card-text">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores.</p>
+                <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div>
+              </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-            <div class="icon-box iconbox-pink">
-              <div class="icon">
-                <img src="assets/images/maldives-640.jpg" alt="" width="100" height="100" style="border-radius: 50%;">    
+          <div class="col-md-6 d-flex align-items-stretch mt-4">
+            <div class="card" style='background-image: url("assets/images/beach_1280.jpg");' data-aos="fade-up" data-aos-delay="200">
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Pale Treda</a></h5>
+                <p class="card-text">Nostrum eum sed et autem dolorum perspiciatis. Magni porro quisquam laudantium voluptatem.</p>
+                <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div>
               </div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-            <div class="icon-box iconbox-yellow">
-              <div class="icon">
-                <img src="assets/images/maldives-640.jpg" alt="" width="100" height="100" style="border-radius: 50%;">
-              </div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-            <div class="icon-box iconbox-red">
-              <div class="icon">
-                <img src="assets/images/maldives-640.jpg" alt="" width="100" height="100" style="border-radius: 50%;">
-              </div>
-              <h4><a href="">Dele Cardo</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-            <div class="icon-box iconbox-teal">
-              <div class="icon">
-                <img src="assets/images/maldives-640.jpg" alt="" width="100" height="100" style="border-radius: 50%;">
-              </div>
-              <h4><a href="">Divera Don</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
             </div>
           </div>
         </div>
       </div>
-    </section><!-- End Services Section -->
+    </section><!-- End More Services Section -->
 
-    
     <!-- ======= About Us Section ======= -->
     <section id="about-us" class="about-us">
-      <div class="container">
+      <div class="container my-4">
 
         <div class="section-title">
           <h2>Acerca de nosotros</strong></h2>
