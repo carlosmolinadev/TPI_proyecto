@@ -10,7 +10,7 @@
         <a class="nav-link" href="../index.php">Inicio </a>
       </li>
       <li class="nav-item  pr-5">
-        <a class="nav-link" href="../pages/logging.php">Iniciar Sesion </a>
+        <a class="nav-link" href="../pages/register.php">Crear perfil</a>
       </li>
       <li class="nav-item pr-5 dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -34,7 +34,7 @@
         </a>
       </li>
       <li class="nav-item pr-5">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="../pages/logging.php">
           <span class="material-icons" style="font-size: 28px; color: rgba(255, 255, 255, 1);"> account_circle </span>  
         </a>
       </li>

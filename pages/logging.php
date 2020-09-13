@@ -13,7 +13,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-9 col-lg-8 mx-auto">
-              <h3 class="login-heading mb-4">Bienvenid@!</h3>
+              <h3 class="login-heading mb-4 text-center">Bienvenid@!</h3>
               <form>
                 <div class="form-label-group">
                   <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>

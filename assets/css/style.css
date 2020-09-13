@@ -41,6 +41,18 @@ body {
   border-radius: 2rem;
 }
 
+.input-round input{
+  border-radius: 2rem;
+}
+
+.input-round input{
+  border-radius: 2rem;
+}
+
+.button-round{
+  border-radius: 2rem;
+}
+
 .form-label-group {
   position: relative;
   margin-bottom: 1rem;
