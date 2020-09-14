@@ -10,70 +10,93 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-7 my-4">
-            <button id="agregar-paquete" class="btn btn-dark" onclick="fillUp()">Crear paquete turistico</button>
+        <div class="col-4 my-4 text-center">
+            <button id="agregar-ruta" class="btn btn-dark" onclick="createRoute()">Crear ruta turistica</button>
+        </div>
+        <div class="col-4 my-4 text-center">
+            <button id="agregar-paquete" class="btn btn-dark" onclick="createPackage()">Crear paquete turistico</button>
+        </div>
+        <div class="col-4 my-4 text-center">
+            <button id="agregar-paquete" class="btn btn-dark" onclick="createUser()">Crear usuario</button>
         </div>
     </div>
 
-    <div id="paquete" class="my-5" style="display: none;">
+    <div id="route" class="my-3" style="display: none;">
         <form>
             <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="ruta">Ruta turistica</label>
-                <input type="text" class="form-control" id="ruta" placeholder="Nombre de ruta">
-              </div>
-              <div class="form-group col-md-6">
-                <label for="ubicacion">Ubicación</label>
-                <input type="text" class="form-control" id="ubicacion" placeholder="Ubicación">
-              </div>
+                <div class="form-group col-md-6">
+                  <label for="ruta">Ruta turistica</label>
+                  <input type="text" class="form-control" id="ruta" placeholder="Nombre de ruta">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="ubicacion">Ubicación</label>
+                  <input type="text" class="form-control" id="ubicacion" placeholder="Ubicación">
+                </div>
             </div>
             <div class="form-group">
-              <label for="inputAddress">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="form-group">
-              <label for="inputAddress2">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">Descripción</span>
+                    </div>
+                    <textarea class="form-control" aria-label="Descripcion"></textarea>
+                </div>
             </div>
             <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputCity">City</label>
-                <input type="text" class="form-control" id="inputCity">
-              </div>
-              <div class="form-group col-md-4">
-                <label for="inputState">State</label>
-                <select id="inputState" class="form-control">
-                  <option selected>Choose...</option>
-                  <option>...</option>
-                </select>
-              </div>
-              <div class="form-group col-md-2">
-                <label for="inputZip">Zip</label>
-                <input type="text" class="form-control" id="inputZip">
-              </div>
+                <div class="form-group col-md-6">
+                  <label for="atraccion">Lugar de interes</label>
+                  <input type="text" class="form-control" id="atraccion" placeholder="Atracción principal">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="hospedaje">Lugar de hospedaje</label>
+                    <input type="text" class="form-control" id="hospedaje" placeholder="Hospedaje">
+                </div>
             </div>
-            <div class="form-group">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Check me out
-                </label>
-              </div>
+            <div class="input-group my-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Subir archivo</span>
+                </div>
+                <div class="custom-file">
+                  <input type="file" class="custom-file-input" id="inputGroupFile01">
+                  <label class="custom-file-label" for="inputGroupFile01">Seleccionar imagen</label>
+                </div>
             </div>
-            <button type="submit" class="btn btn-dark">Sign in</button>
+            <button type="submit" class="btn btn-dark">Ingresar</button>
           </form>
     </div>
 
+    <div id="user" class="my-3" style="display: none;">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6 my-3">
+                  <label for="first">Email</label>
+                  <input type="text" class="form-control" id="first" placeholder="Nombres">
+                </div>
+                <div class="form-group col-md-6 my-3">
+                  <label for="last">Password</label>
+                  <input type="text" class="form-control" id="last" placeholder="Apellidos">
+                </div>
+              </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+            </div>
+        </form>
+    </div>
     <div id="table-show">
-        <!--Grid column-->
         <div class="col-5 my-4">
-        <!-- Search form -->
+        <!-- Search text -->
         <form class="form-inline">
             <label for="search">Buscar por ruta:</label>
             <input id="search" class="form-control ml-3" type="search" placeholder="Busqueda...">
         </form>  
         </div>
-    <!--Grid column-->
         <table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
             <thead>
                 <tr>
@@ -573,6 +596,7 @@
             </tfoot>
         </table>
     </div>
+    
 </div>
 
 <script src="../assets/js/admin.js"></script>
